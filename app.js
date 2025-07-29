@@ -8,6 +8,6 @@ app.use(express.json())
 app.use(cors())
 app.use(router)
 
-app.listen(3000,'0.0.0.0',()=>{
+app.listen(process.env.PORT,'0.0.0.0',()=>{
     console.log("Serwer słucha na porcie 3000...")
 })
