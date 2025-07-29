@@ -9,5 +9,5 @@ app.use(cors())
 app.use(router)
 
 app.listen(process.env.PORT,'0.0.0.0',()=>{
-    console.log("Serwer słucha na porcie 3000...")
+    console.log(`Serwer słucha na porcie ${process.env.PORT} `)
 })
